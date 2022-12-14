@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Unica+One&display=swap');
+
+* {
+    color: white;
+}
+
+#titulo {
+    color: white;
+    font-size: 70px;
+    margin: 16px;
+    font-family: 'Bebas Neue', cursive;
+}
+body {
+    font-family: 'Unica One', cursive;  
+    background-color: darkblue;
+    justify-content: center;   
+    align-items: center; 
+    display: flex;
+    flex-direction: column;
+}   
+.texto {
+display: flex;
+align-items: center;
+width: 260px;
+height: 44px;
+padding: 10px;
+box-sizing: border-box;
+margin: 24px;
+border: 1px solid hotpink;
+color: white;
+border-radius: 20px;
+font-size: 24px;
+background-color: #002E94;
+}
+.tarjetas {
+    background-color: #002E94;
+    box-sizing: border-box;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 160px;
+    height: 140px;
+    text-align: center;
+    padding: 10PX;
+    border: 1px solid hotpink;  
+    justify-content: center;
+    align-items: center;
+    margin: 22px;
+}
+.tarjetas p {
+    height: 10px;
+}
+
+.tarjetas-de-animales {
+    display: flex;
+    gap: 10px;
+    margin: 10px, 5px, 8px, 10px;
+}
+#soso {
+    border: 1px solid white;   
+    margin-bottom: 24px;
+}
+#maximo {
+    background-color: #002E94;
+    width: 290px;
+    border-radius: 20px;
+    font-size: 22px;
+    margin-top: 24px;
+    border: 1px solid hotpink;
+    text-align: center;
+}
+.mascota2 {
+    display: none;
+}
+
+input:hover + label {
+    background-color: #81C6E8;
+}
+
+#extraer {
+     border: 1px solid white;
+    border-radius: 20px;
+    width: 115px;
+    background: transparent;
+    height: 32px;
+    color: white;
+    font-family: 'Unica One', cursive;
+    font-size: 17px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+#extraer:hover {
+       background-color: #81C6E8;
+}
+#dinero {
+    color: black;
+    border: 1px solid white;
+    height: 26px;
+    width: 244px;
+    background: transparent;
+    color: white;
+}
+#resultado {
+    background-color: #002E94;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 32px;
+    width: 500px;
+}
+
+#resultado1 {
+ color: red;
+}
+@media (max-width: 610px) {
+ .tarjetas-de-animales {
+    flex-direction: column;
+ }   
+ #extraer { 
+    margin-left: 67px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+ }
+}

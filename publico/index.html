@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CAJERO AUTOMATICO!</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <H1 id="titulo"> CAJERO AUTOMATICO</H1>
+    <H2 class="texto"> EMPIEZA A SACAR DINERO </H2>
+
+     <div class="tarjetas-de-animales">
+      <input class="mascota2" type="radio" name="mascota" id="vaca"/>
+         <label class="tarjetas" for="vaca">
+           <p> VACA = 50$ </p> 
+           <img src="vaca.webp" alt="Vaca">  
+          </label>
+          <input class="mascota2" type="radio" name="mascota" id="pollo"/>
+          <label class="tarjetas" for="pollo">
+           <p> POLLO = $20$ </p> 
+           <img src="pollo.webp" alt="Pollo">  
+          </label>           
+          <input class="mascota2" type="radio" name="mascota" id="cerdo"/>  
+          <label class="tarjetas" for="cerdo">
+           <p> CERDO = 10$ </p> 
+          <img src="cerdo.webp" alt="Cerdo">  
+           </label>
+
+    </div>
+    <p id="soso"> <img src="cajero.webp"/>
+   </p>
+   <p>
+    <input type="number" id="dinero"/>
+    <input type="button" value="extraer" id="extraer"/>
+    </p>
+    <p id = "maximo"> </p>
+    <p id = "resultado1"> </p>
+    <p id = "resultado"> </p>
+  <script src="caja.js"></script>
+  </body>
+</html>
